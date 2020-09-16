@@ -3,6 +3,9 @@ import { API_URL } from '../../components/Api-config/configuration'
 export const USER_SUCCESS = 'USER_SUCCESS';
 export const USER_ERROR = 'USER_ERROR';
 
+
+
+
 export const Getalluser = (data) => {
 
     return dispatch => {
@@ -31,3 +34,5 @@ export const Getalluser = (data) => {
         return promise;
     }
 }
+
+
