@@ -119,7 +119,7 @@ class Home extends React.Component {
           color="primary"
           onClick={this.handleClickOpen}
         >
-          Open dialog
+          Open Modal
         </Button>
         {/* open={this.state.open} */}
         <Dialog
